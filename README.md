@@ -14,6 +14,6 @@ Hope someone finds it useful, enjoy :)
 
 ## Shoutouts
 
-@OISF/suricata
+@OISF
 
 https://rules.emergingthreats.net/
