@@ -8,6 +8,6 @@ Just install cron on dd-wrt `opkg install cron` and then add a new cronjob `cron
 
 By default this cronjob will run every day at 00:00
 
-I personally run suricata on the *br0* interface, but it's up to you to change that. Use `ifconfig` to find the interface that suits you.
+I personally run suricata on the **br0** interface, but it's up to you to change that. Use `ifconfig` to find the interface that suits you.
 
 Hope someone finds it useful, enjoy :)
