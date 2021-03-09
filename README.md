@@ -3,6 +3,7 @@ This is a simple cronjob for updating Emerging Threats rules files and restartin
 
 ## Installing from the terminal (ssh)
 > Entware is required see more here: https://wiki.dd-wrt.com/wiki/index.php/Installing_Entware
+
 Just install cron on dd-wrt `opkg install cron` and then add a new cronjob `crontab -e` -- then paste that line in and you're done. 
 
 By default this cronjob will run every day at 00:00
