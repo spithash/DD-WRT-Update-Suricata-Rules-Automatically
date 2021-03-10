@@ -5,7 +5,7 @@ This is a simple script for updating Emerging Threats rules files and restarting
 > Entware is required see more here: https://wiki.dd-wrt.com/wiki/index.php/Installing_Entware
 
 1) Copy et-update.sh in your /opt/bin/ folder and give execute permissions to it `chmod +x /opt/bin/et-update.sh`
-2) Install cron on dd-wrt `opkg install cron`
+2) Install cron on dd-wrt `opkg install cron` if you don't have it already.
 3) Paste the line `0 0 * * * root /bin/sh -c /opt/bin/et-update.sh > /dev/null 2>&1` by going to your DD-WRT's Web Interface at *Administration -> Management* tab, in the **Cron** field where is says "Additional Cron Jobs".
 4) In your terminal run the command: `stopservice crond && startservice crond` and you're done.
 
