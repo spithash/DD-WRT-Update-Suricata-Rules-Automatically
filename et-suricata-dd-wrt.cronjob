@@ -1,4 +1,0 @@
-0 0 * * * wget -c https://rules.emergingthreats.net/open/suricata-4.1.8/emerging.rules.tar.gz -O - | tar -xz -C /opt/etc/suricata/ && killall suricata && rm /opt/var/run/suricata.pid ; /opt/bin/suricata -c /opt/etc/suricata/suricata.yaml -i br0 -D -vvv > /dev/null 2>&1
-
-
-
