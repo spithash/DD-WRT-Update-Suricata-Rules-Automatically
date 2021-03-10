@@ -3,7 +3,7 @@
 echo -e "\n"
 echo -e "\e[1mFetching Rules\e[0m...\n"
 
-if wget -c -S https://rules.emergingthreats.net/open/suricata-4.1.8/emerging.rules.tar.gz -O - | tar -xz -C /opt/etc/suricata/ ; then
+if wget -c -q https://rules.emergingthreats.net/open/suricata-4.1.8/emerging.rules.tar.gz -O - | tar -xz -C /opt/etc/suricata/ ; then
         echo -e "\e[2mRules updated\e[0m"
         else
                 echo -e "Error: \e[91mCould not fetch rules\e[0m" && exit 0
