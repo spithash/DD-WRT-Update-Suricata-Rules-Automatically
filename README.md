@@ -22,3 +22,8 @@ Hope someone finds it useful, enjoy :)
 @OISF
 
 https://rules.emergingthreats.net/
+
+### DEMO:
+This is how it looks like if you run et-update.sh manually on the command line
+
+![Demo Updating Emerging Threats rules on DD-WRT and restarting suricata on SSH manually](https://github.com/spithash/trunk/blob/master/emerging-threats-rules-update-suricata-dd-wrt.gif?raw=true)
